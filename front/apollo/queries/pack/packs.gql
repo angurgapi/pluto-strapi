@@ -1,0 +1,9 @@
+query Packs {
+  packs {
+    id
+    name
+    description
+    price
+    icon
+  }
+}

@@ -1,0 +1,13 @@
+query Pack($id: ID!) {
+  pack(id: $id) {
+    id
+    name
+    tasks {
+      id
+      name
+      description
+      price
+     
+    }
+  }
+}
