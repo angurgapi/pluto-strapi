@@ -33,7 +33,7 @@ import packQuery from '~/apollo/queries/pack/pack'
 export default {
   data() {
     return {
-      pack: Object
+      pack: {}
     }
   },
   apollo: {

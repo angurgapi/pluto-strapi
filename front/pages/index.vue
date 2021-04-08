@@ -8,7 +8,7 @@
       <h1 class="headline">Доступные пакеты услуг</h1>
       <div class="grid-wrapper">       
 
-        <div class="uk-card uk-card-default uk-card-hover" v-for="pack in packsList" v-bind:key="pack">        
+        <div class="uk-card uk-card-default uk-card-hover" v-for="pack in packsList" v-bind:key="pack" loading="lazy">        
           <div class="card-header">
             <div class="card-icon"><font-awesome-icon :icon="`${pack.icon}`" style='color: rgba(255,255,255,.8)'/></div> 
             <h3 class="card-title">{{ pack.name }}</h3>                               
@@ -62,6 +62,7 @@ export default {
     grid-template-columns: 1fr 1fr 1fr
     grid-gap: 1rem
     margin-bottom: 100px
+
   .hero
     background: linear-gradient(241.43deg, #3B37F1 0%, #FF007D 100%)
   .headline

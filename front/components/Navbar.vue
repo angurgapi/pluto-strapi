@@ -10,14 +10,14 @@
         <li><nuxt-link class='navlink' to="/users">Кабинет</nuxt-link></li>
         <li @click='logout'><nuxt-link class='navlink' to="#">Выход</nuxt-link></li>
       </ul>
-      <ul class="guest" v-else>
+     <!--  <ul class="guest" v-else>
         <li><nuxt-link class='navlink' to="/login">Вход</nuxt-link></li>
         <li><nuxt-link class='navlink' to="/register">Регистрация</nuxt-link></li>
-      </ul>
+      </ul> -->
 
       <!-- <nuxt-link class='navlink' to="/orders" v-if="admin">Все заявки</nuxt-link> -->
       
-      <nuxt-link class='navlink' to="/item/new">Связаться</nuxt-link>
+      <nuxt-link class='navlink' to="/contact">Связаться</nuxt-link>
 
     </div>        
       
